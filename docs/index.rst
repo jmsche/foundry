@@ -18,7 +18,7 @@ Installation
 
 .. code-block:: terminal
 
-    $ composer require zenstruck/foundry --dev
+    composer require zenstruck/foundry --dev
 
 To use the ``make:*`` commands from this bundle, ensure
 `Symfony MakerBundle <https://symfony.com/bundles/SymfonyMakerBundle/current/index.html>`_ is installed.

@@ -110,7 +110,7 @@ Create a model factory for one of your entities with the maker command:
 
 .. code-block:: terminal
 
-    $ bin/console make:factory
+    $ php bin/console make:factory
 
     > Entity class to create a factory for:
     > Post
@@ -1893,7 +1893,7 @@ Later, you can access the story's state when creating other fixtures:
         }
 
     Now your IDE will know ``CategoryStory::php()`` returns an object of type ``Category``.
-    
+
     Using a magic method also does not require a prior ``::load()`` call on the story, it will initialize itself.
 
 .. note::

@@ -124,7 +124,6 @@ This command will generate a ``PostFactory`` class that looks like this:
 .. code-block:: php
 
     // src/Factory/PostFactory.php
-
     namespace App\Factory;
 
     use App\Entity\Post;

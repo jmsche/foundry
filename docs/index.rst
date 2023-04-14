@@ -128,9 +128,9 @@ This command will generate a ``PostFactory`` class that looks like this:
 
     use App\Entity\Post;
     use App\Repository\PostRepository;
-    use Zenstruck\Foundry\RepositoryProxy;
     use Zenstruck\Foundry\ModelFactory;
     use Zenstruck\Foundry\Proxy;
+    use Zenstruck\Foundry\RepositoryProxy;
 
     /**
      * @extends ModelFactory<Post>

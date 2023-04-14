@@ -110,7 +110,7 @@ Create a model factory for one of your entities with the maker command:
 
 .. code-block:: terminal
 
-    $ php bin/console make:factory
+    php bin/console make:factory
 
     > Entity class to create a factory for:
     > Post

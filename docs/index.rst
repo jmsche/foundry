@@ -202,6 +202,7 @@ This command will generate a ``PostFactory`` class that looks like this:
         .. code-block:: yaml
 
             # config/packages/zenstruck_foundry.yaml
+
             when@dev: # see Bundle Configuration section about sharing this in the test environment
                 zenstruck_foundry:
                     make_factory:
@@ -529,6 +530,7 @@ random data for your factories:
     .. code-block:: yaml
 
         # config/packages/zenstruck_foundry.yaml
+
         when@dev: # see Bundle Configuration section about sharing this in the test environment
             zenstruck_foundry:
                 faker:
@@ -553,6 +555,7 @@ random data for your factories:
     .. code-block:: yaml
 
         # config/packages/zenstruck_foundry.yaml
+
         when@dev: # see Bundle Configuration section about sharing this in the test environment
             zenstruck_foundry:
                 faker:
@@ -695,6 +698,7 @@ instantiators):
 .. code-block:: yaml
 
     # config/packages/zenstruck_foundry.yaml
+
     when@dev: # see Bundle Configuration section about sharing this in the test environment
         zenstruck_foundry:
             instantiator:
@@ -1227,6 +1231,7 @@ bundle's configuration:
     .. code-block:: yaml
 
         # config/packages/zenstruck_foundry.yaml
+
         when@dev: # see Bundle Configuration section about sharing this in the test environment
             zenstruck_foundry:
                 database_resetter:
@@ -1372,6 +1377,7 @@ Without auto-refreshing enabled, the above call to ``$post->getTitle()`` would r
         .. code-block:: yaml
 
             # config/packages/zenstruck_foundry.yaml
+
             when@dev: # see Bundle Configuration section about sharing this in the test environment
                 zenstruck_foundry:
                     auto_refresh_proxies: true/false
@@ -1456,6 +1462,7 @@ values are: stories as service, "global" stories and invokable services.
     .. code-block:: yaml
 
         # config/packages/zenstruck_foundry.yaml
+
         when@test: # see Bundle Configuration section about sharing this in the test environment
             zenstruck_foundry:
                 global_state:
